@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:cosmin-cjxd/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: cosmin.cojocar@gmx.ch
+  token: vault:cosmin-cjxd/pipelineUser:token
+  username: ccojocar
+prow:
+  hmacToken: vault:cosmin-cjxd/prow:hmacToken
